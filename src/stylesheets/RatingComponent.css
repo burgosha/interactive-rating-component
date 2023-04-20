@@ -1,0 +1,72 @@
+.main-component {
+    width: 327px;
+    height: 360px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 15px;
+    padding: 24px 24px 32px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.start-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #262E38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.question {
+    color: #FFFFFF;
+    font-family: "Overpass", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0;
+}
+.description {
+    font-family: "Overpass", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #969FAD;
+    margin: 0;
+}
+.rating-numbers {
+    display: flex;
+    justify-content: space-between;
+}
+.number {
+    width: 42px;
+    height: 42px;
+    background-color: #262E38;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7C8798;
+    font-family: "Overpass", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.175px;
+}
+.btn-submit {
+    width: 279px;
+    height: 45px;
+    border: none;
+    background-color: #FC7614;
+    border-radius: 22.5px;
+    font-family: "Overpass", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1.87px;
+}
