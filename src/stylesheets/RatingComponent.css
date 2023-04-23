@@ -1,7 +1,17 @@
+:root {
+    /* Colors */
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --lightGrey: hsl(217, 12%, 63%);
+    --mediumGray: hsl(216, 12%, 54%);
+    --darkBlue: hsl(213, 19%, 18%);
+    --veryDarkBlue: hsl(216, 12%, 8%);
+    --bgGradient: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+}
 .main-component {
     width: 327px;
     height: 360px;
-    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    background: var(--bgGradient);
     border-radius: 15px;
     padding: 24px 24px 32px 24px;
     display: flex;
@@ -12,13 +22,13 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #262E38;
+    background-color: var(--darkBlue);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .question {
-    color: #FFFFFF;
+    color: var(--white);
     font-family: "Overpass", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -32,7 +42,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    color: #969FAD;
+    color: var(--lightGrey);
     margin: 0;
 }
 .rating-numbers {
@@ -42,31 +52,37 @@
 .number {
     width: 42px;
     height: 42px;
-    background-color: #262E38;
+    background-color: var(--darkBlue);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #7C8798;
+    color: var(--mediumGray);
     font-family: "Overpass", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     text-align: center;
     letter-spacing: 0.175px;
+    cursor: pointer;
+}
+.number:hover {
+    color: var(--white);
+    background-color: var(--mediumGray);
 }
 .btn-submit {
     width: 279px;
     height: 45px;
     border: none;
-    background-color: #FC7614;
+    background-color: var(--orange);
     border-radius: 22.5px;
     font-family: "Overpass", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
-    color: #FFFFFF;
+    color: var(--white);
     text-transform: uppercase;
     letter-spacing: 1.87px;
+    cursor: pointer;
 }
