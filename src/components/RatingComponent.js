@@ -1,8 +1,11 @@
 import React from "react";
+import { useState } from "react";
 import IconStar from "../images/icon-star.svg"
 import "../stylesheets/RatingComponent.css";
 import RatingNumbers from "./RatingNumbers";
 function RatingComponent(props) {
+    const [rating, setRating] = useState(0);
+    
     return(
         <div className="main-component">
             <div className="start-logo"><img src={IconStar} alt="Star Icon"/></div>

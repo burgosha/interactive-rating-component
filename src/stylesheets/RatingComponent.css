@@ -65,6 +65,25 @@
     text-align: center;
     letter-spacing: 0.175px;
     cursor: pointer;
+    border: none;
+}
+.number-on {
+    width: 42px;
+    height: 42px;
+    background-color: var(--orange);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-family: "Overpass", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.175px;
+    cursor: pointer;
+    border: none;
 }
 .number:hover {
     color: var(--white);
