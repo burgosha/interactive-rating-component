@@ -105,6 +105,10 @@
     letter-spacing: 1.87px;
     cursor: pointer;
 }
+.btn-submit:hover {
+    color: var(--orange);
+    background-color: var(--white);
+}
 .results {
     padding: 34px 24px 37px 24px;
     display: flex;
