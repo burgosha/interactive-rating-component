@@ -1,7 +1,5 @@
 import React from "react";
-import { useState } from "react";
-function RatingNumbers (props) {
-    const [rating, setRating] = useState(0);
+function RatingNumbers ({handleClickNumber , rating}) {
     return(
     <div className="rating-numbers">
         {[...Array(5)].map((number, index) => {
@@ -10,8 +8,8 @@ function RatingNumbers (props) {
                 <button
                     type="button"
                     key={index}
-                    className={index == rating ? "number-on" : "number"}
-                    onClick={()=>setRating(index)}
+                    className={index === rating ? "number-on" : "number"}
+                    onClick={handleClickNumber(index)}
                 >
                     {index}
                 </button>
