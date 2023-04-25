@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import IconStar from "../images/icon-star.svg"
+import IconStar from "../images/icon-star.svg";
+import ThankYou from "../images/illustration-thank-you.svg";
 import "../stylesheets/RatingComponent.css";
 
 function RatingComponent(props) {
@@ -38,8 +39,11 @@ function RatingComponent(props) {
         )
     } else {
         return(
-            <div className="main-component">
-                
+            <div className="main-component results">
+                <div className="results-image"><img src={ThankYou} alt="Thank You"/></div>
+                <div className="results-info">You selected {state} out of 5</div>
+                <p className="thank-you">Thank you!</p>
+                <p className="thank-you-appreciation">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
             </div>
         )
     }

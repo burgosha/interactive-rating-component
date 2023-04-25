@@ -105,3 +105,43 @@
     letter-spacing: 1.87px;
     cursor: pointer;
 }
+.results {
+    padding: 34px 24px 37px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.results-info {
+    width: 193px;
+    height: 32px;
+    border-radius: 22.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Overpass", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--orange);
+    background-color: var(--darkBlue);
+}
+.thank-you {
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: var(--white);
+}
+.thank-you-appreciation {
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--lightGrey);
+}
