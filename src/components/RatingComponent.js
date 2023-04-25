@@ -40,7 +40,7 @@ function RatingComponent(props) {
     } else {
         return(
             <div className="main-component results">
-                <div className="results-image"><img src={ThankYou} alt="Thank You"/></div>
+                <div><img className="results-image" src={ThankYou} alt="Thank You"/></div>
                 <div className="results-info">You selected {state} out of 5</div>
                 <p className="thank-you">Thank you!</p>
                 <p className="thank-you-appreciation">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
