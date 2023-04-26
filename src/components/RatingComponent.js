@@ -3,6 +3,7 @@ import { useState } from "react";
 import IconStar from "../images/icon-star.svg";
 import ThankYou from "../images/illustration-thank-you.svg";
 import "../stylesheets/RatingComponent.css";
+import "animate.css";
 
 function RatingComponent(props) {
     const [state, setState] = useState(0);
@@ -40,10 +41,10 @@ function RatingComponent(props) {
     } else {
         return(
             <div className="main-component results">
-                <div><img className="results-image" src={ThankYou} alt="Thank You"/></div>
-                <div className="results-info">You selected {state} out of 5</div>
-                <p className="thank-you">Thank you!</p>
-                <p className="thank-you-appreciation">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+                <div><img className="results-image animate__animated animate__bounceInRight animate__faster" src={ThankYou} alt="Thank You"/></div>
+                <div className="results-info animate__animated animate__bounceInRight animate__fast">You selected {state} out of 5</div>
+                <p className="thank-you animate__animated animate__bounceInRight">Thank you!</p>
+                <p className="thank-you-appreciation animate__animated animate__bounceInRight">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
             </div>
         )
     }
