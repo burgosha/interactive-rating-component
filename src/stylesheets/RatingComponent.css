@@ -142,7 +142,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 30px;
     color: var(--white);
 }
 .thank-you-appreciation {
@@ -193,5 +192,30 @@
         font-size: 15px;
         line-height: 19px;
         letter-spacing: 2px;
+    }
+    .results {
+        padding: 45px 40px 45px 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .results-image {
+        width: 162px;
+        height: 108px;
+    }
+    .results-info {
+        width: 193px;
+        height: 32px;
+        border-radius: 22.5px;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .thank-you {
+        font-size: 28px;
+    }
+    .thank-you-appreciation {
+        font-size: 15px;
+        line-height: 24px;
     }
 }
